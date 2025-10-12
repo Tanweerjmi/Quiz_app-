@@ -1,0 +1,92 @@
+[
+  {
+    "question": "Which one of these is a JavaScript framework?",
+    "answers": [
+      { "text": "Python", "correct": false },
+      { "text": "Django", "correct": false },
+      { "text": "React", "correct": true },
+      { "text": "Eclipse", "correct": false }
+    ]
+  },
+  {
+    "question": "Who is the Prime Minister of India?",
+    "answers": [
+      { "text": "Narendra Modi", "correct": true },
+      { "text": "Rahul Gandhi", "correct": false },
+      { "text": "Lalu Yadav", "correct": false },
+      { "text": "Nitish Kumar", "correct": false }
+    ]
+  },
+  {
+    "question": "What is 4 × 3?",
+    "answers": [
+      { "text": "8", "correct": false },
+      { "text": "12", "correct": true },
+      { "text": "9", "correct": false },
+      { "text": "7", "correct": false }
+    ]
+  },
+  {
+    "question": "Which HTML tag is used to include JavaScript?",
+    "answers": [
+      { "text": "<javascript>", "correct": false },
+      { "text": "<script>", "correct": true },
+      { "text": "<js>", "correct": false },
+      { "text": "<link>", "correct": false }
+    ]
+  },
+  {
+    "question": "Which company developed the React framework?",
+    "answers": [
+      { "text": "Google", "correct": false },
+      { "text": "Facebook", "correct": true },
+      { "text": "Microsoft", "correct": false },
+      { "text": "Amazon", "correct": false }
+    ]
+  },
+  {
+    "question": "Which method converts a JSON string into a JavaScript object?",
+    "answers": [
+      { "text": "JSON.parse()", "correct": true },
+      { "text": "JSON.stringify()", "correct": false },
+      { "text": "JSON.convert()", "correct": false },
+      { "text": "JSON.toObject()", "correct": false }
+    ]
+  },
+  {
+    "question": "Which CSS property changes text color?",
+    "answers": [
+      { "text": "font-color", "correct": false },
+      { "text": "text-color", "correct": false },
+      { "text": "color", "correct": true },
+      { "text": "background-color", "correct": false }
+    ]
+  },
+  {
+    "question": "Which operator is used for strict equality in JavaScript?",
+    "answers": [
+      { "text": "==", "correct": false },
+      { "text": "===", "correct": true },
+      { "text": "!=", "correct": false },
+      { "text": "=", "correct": false }
+    ]
+  },
+  {
+    "question": "Which keyword declares a variable in JavaScript?",
+    "answers": [
+      { "text": "var", "correct": true },
+      { "text": "let", "correct": true },
+      { "text": "const", "correct": true },
+      { "text": "All of the above", "correct": true }
+    ]
+  },
+  {
+    "question": "What does DOM stand for in web development?",
+    "answers": [
+      { "text": "Document Object Model", "correct": true },
+      { "text": "Data Object Model", "correct": false },
+      { "text": "Digital Object Management", "correct": false },
+      { "text": "Document Oriented Method", "correct": false }
+    ]
+  }
+]
