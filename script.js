@@ -18,7 +18,7 @@ nextButton.addEventListener('click', () => {
   setNextQuestion();
 });
 
-// ==== HELPER FUNCTION TO DECODE HTML ENTITIES ====
+// ==== HELPER TO DECODE HTML ENTITIES ====
 function decodeHTML(html) {
   const txt = document.createElement("textarea");
   txt.innerHTML = html;
@@ -31,13 +31,11 @@ async function fetchQuestionsFromAPI() {
     const res = await fetch('https://opentdb.com/api.php?amount=20&difficulty=medium&type=multiple');
     const data = await res.json();
 
-    // Convert API results to quiz format
     return data.results.map(q => {
       const answers = [
         ...q.incorrect_answers.map(a => ({ text: decodeHTML(a), correct: false })),
         { text: decodeHTML(q.correct_answer), correct: true }
       ];
-      // Shuffle answers
       answers.sort(() => Math.random() - 0.5);
 
       return {
@@ -46,7 +44,19 @@ async function fetchQuestionsFromAPI() {
       };
     });
   } catch (error) {
-    console.error("Failed to fetch questions:", error);
+    console.error("Failed to fetch API questions:", error);
+    return [];
+  }
+}
+
+// ==== FETCH QUESTIONS FROM LOCAL JSON ====
+async function fetchQuestionsFromJSON() {
+  try {
+    const res = await fetch('questions.json');
+    const data = await res.json();
+    return data;
+  } catch (error) {
+    console.error("Failed to fetch JSON questions:", error);
     return [];
   }
 }
@@ -58,11 +68,15 @@ async function startGame() {
   quizScore = 0;
   scoreElement.innerText = quizScore;
 
-  // Fetch questions dynamically
-  shuffledQuestions = await fetchQuestionsFromAPI();
-  currentQuestionIndex = 0;
+  // Fetch both JSON and API questions
+  const jsonQuestions = await fetchQuestionsFromJSON();
+  const apiQuestions = await fetchQuestionsFromAPI();
+
+  shuffledQuestions = [...jsonQuestions, ...apiQuestions];
+  shuffledQuestions.sort(() => Math.random() - 0.5);
 
   if (shuffledQuestions.length > 0) {
+    currentQuestionIndex = 0;
     setNextQuestion();
   } else {
     questionElement.innerText = "Failed to load questions. Please try again.";
@@ -79,6 +93,7 @@ function setNextQuestion() {
 // ==== SHOW QUESTION ====
 function showQuestion(question) {
   questionElement.innerText = question.question;
+
   question.answers.forEach(answer => {
     const button = document.createElement('button');
     button.innerText = answer.text;
@@ -91,7 +106,7 @@ function showQuestion(question) {
   });
 }
 
-// ==== RESET BUTTONS AND STATE ====
+// ==== RESET STATE ====
 function resetState() {
   nextButton.classList.add('hide');
   while (answerButtonsElement.firstChild) {
@@ -104,10 +119,9 @@ function selectAnswer(e) {
   const selectedButton = e.target;
   const correct = selectedButton.dataset.correct === "true";
 
-  // Highlight only selected button
   setStatusClass(selectedButton, correct);
 
-  // Disable all buttons after click
+  // Disable all buttons and highlight correct answers
   Array.from(answerButtonsElement.children).forEach(button => {
     button.disabled = true;
     if (button.dataset.correct === "true" && button !== selectedButton) {
@@ -115,13 +129,11 @@ function selectAnswer(e) {
     }
   });
 
-  // Update score
   if (correct) {
     quizScore++;
     scoreElement.innerText = quizScore;
   }
 
-  // Show next or restart
   if (shuffledQuestions.length > currentQuestionIndex + 1) {
     nextButton.classList.remove('hide');
   } else {
@@ -135,18 +147,13 @@ function updateProgress() {
   questionNumberElement.innerText = `Question: ${currentQuestionIndex + 1} / ${shuffledQuestions.length}`;
 }
 
-// ==== SET BUTTON STATUS ====
+// ==== STATUS CLASS FUNCTIONS ====
 function setStatusClass(element, correct) {
   clearStatusClass(element);
-  if (correct) {
-    element.classList.add("correct");
-  } else {
-    element.classList.add("wrong");
-  }
+  element.classList.add(correct ? "correct" : "wrong");
 }
 
-// ==== CLEAR BUTTON STATUS ====
 function clearStatusClass(element) {
-  element.classList.remove('correct');
-  element.classList.remove('wrong');
+  element.classList.remove("correct");
+  element.classList.remove("wrong");
 }
