@@ -6,9 +6,8 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 ![OpenTrivia API](https://img.shields.io/badge/API-OpenTriviaDB-lightgrey?style=for-the-badge&logo=api)
 
-<p align="center">
-  <img src="assets/quiz-demo.gif" width="600" alt="Quiz App Demo">
-</p>
+![Quiz App Preview](assets/preview.png)
+
 
 
 A modern, interactive, and responsive **Quiz Application** built with **HTML, CSS, and JavaScript**.  
