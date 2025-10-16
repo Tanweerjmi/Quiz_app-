@@ -157,7 +157,8 @@ async function startGame() {
   startScreen.classList.add('hide');
   endScreen.classList.add('hide');
   questionContainerElement.classList.remove('hide');
-
+  
+   
   quizScore = 0;
   scoreElement.innerText = quizScore;
 
@@ -418,22 +419,30 @@ restartButton.addEventListener('click', () => {
   startButton.classList.remove('hide'); // 👈 make sure Start is visible
 });
 async function getQuizQuestions() {
-  const localCount = 15;
-  const apiCount = 15;
+  const desiredLocalCount = 15;
+  const desiredAPICount = 15;
 
   // Fetch local questions
   const localQuestions = await fetchQuestionsFromJSON();
-  const shuffledLocal = [...localQuestions].sort(() => Math.random() - 0.5);
-  const selectedLocal = shuffledLocal.slice(0, localCount);
+  const localCount = Math.min(desiredLocalCount, localQuestions.length);
+  const selectedLocal = [...localQuestions].sort(() => Math.random() - 0.5).slice(0, localCount);
 
   // Fetch API questions
-  const apiQuestions = await fetchApiQuestions(apiCount); // now returns 15
+  const apiQuestionsRaw = await fetchApiQuestions(desiredAPICount);
+  const apiCount = Math.min(desiredAPICount, apiQuestionsRaw.length);
+  const selectedAPI = apiQuestionsRaw.slice(0, apiCount);
 
-  // Combine 15 local + 15 API and shuffle
-  const allQuestions = [...selectedLocal, ...apiQuestions].sort(() => Math.random() - 0.5);
+  // Combine and shuffle
+  const allQuestions = [...selectedLocal, ...selectedAPI].sort(() => Math.random() - 0.5);
+
+  // Optional warning
+  if(allQuestions.length < (desiredLocalCount + desiredAPICount)) {
+    console.warn(`Quiz has only ${allQuestions.length} questions instead of 30.`);
+  }
 
   return allQuestions;
 }
+
 
 
 
