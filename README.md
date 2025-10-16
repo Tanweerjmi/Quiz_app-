@@ -9,6 +9,7 @@
 ![OpenTrivia API](https://img.shields.io/badge/API-OpenTriviaDB-lightgrey?style=for-the-badge&logo=api)
 
 ![Quiz App Preview](assets/preview.png)
+![Quiz App Preview](assets/previewquizscore.png)
 
 
 
