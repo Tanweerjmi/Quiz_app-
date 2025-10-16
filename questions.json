@@ -1,47 +1,1182 @@
 [
   {
-    "question": "Which one of these is a JavaScript framework?",
+    "question": "What is the capital of France?",
     "answers": [
-      { "text": "Python", "correct": false },
-      { "text": "Django", "correct": false },
-      { "text": "React", "correct": true },
-      { "text": "Eclipse", "correct": false }
+      { "text": "Paris", "correct": true },
+      { "text": "Rome", "correct": false },
+      { "text": "Berlin", "correct": false },
+      { "text": "Madrid", "correct": false }
     ]
   },
   {
-    "question": "Who is the Prime Minister of India?",
+    "question": "Which planet is known as the Red Planet?",
     "answers": [
-      { "text": "Narendra Modi", "correct": true },
-      { "text": "Rahul Gandhi", "correct": false },
-      { "text": "Lalu Yadav", "correct": false },
-      { "text": "Nitish Kumar", "correct": false }
+      { "text": "Mars", "correct": true },
+      { "text": "Venus", "correct": false },
+      { "text": "Jupiter", "correct": false },
+      { "text": "Saturn", "correct": false }
     ]
   },
   {
-    "question": "What is 4 × 3?",
+    "question": "What is the largest mammal in the world?",
     "answers": [
-      { "text": "8", "correct": false },
+      { "text": "Blue Whale", "correct": true },
+      { "text": "Elephant", "correct": false },
+      { "text": "Giraffe", "correct": false },
+      { "text": "Hippopotamus", "correct": false }
+    ]
+  },
+  {
+    "question": "Who wrote the play 'Romeo and Juliet'?",
+    "answers": [
+      { "text": "William Shakespeare", "correct": true },
+      { "text": "Charles Dickens", "correct": false },
+      { "text": "Jane Austen", "correct": false },
+      { "text": "Mark Twain", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the boiling point of water at sea level?",
+    "answers": [
+      { "text": "100°C", "correct": true },
+      { "text": "90°C", "correct": false },
+      { "text": "80°C", "correct": false },
+      { "text": "120°C", "correct": false }
+    ]
+  },
+  {
+    "question": "Which gas do plants absorb from the atmosphere?",
+    "answers": [
+      { "text": "Carbon Dioxide", "correct": true },
+      { "text": "Oxygen", "correct": false },
+      { "text": "Nitrogen", "correct": false },
+      { "text": "Hydrogen", "correct": false }
+    ]
+  },
+  {
+    "question": "Which is the largest ocean on Earth?",
+    "answers": [
+      { "text": "Pacific Ocean", "correct": true },
+      { "text": "Atlantic Ocean", "correct": false },
+      { "text": "Indian Ocean", "correct": false },
+      { "text": "Arctic Ocean", "correct": false }
+    ]
+  },
+  {
+    "question": "Which element has the chemical symbol 'O'?",
+    "answers": [
+      { "text": "Oxygen", "correct": true },
+      { "text": "Gold", "correct": false },
+      { "text": "Osmium", "correct": false },
+      { "text": "Iron", "correct": false }
+    ]
+  },
+  {
+    "question": "Who painted the Mona Lisa?",
+    "answers": [
+      { "text": "Leonardo da Vinci", "correct": true },
+      { "text": "Vincent van Gogh", "correct": false },
+      { "text": "Pablo Picasso", "correct": false },
+      { "text": "Claude Monet", "correct": false }
+    ]
+  },
+  {
+    "question": "Which country is known as the Land of the Rising Sun?",
+    "answers": [
+      { "text": "Japan", "correct": true },
+      { "text": "China", "correct": false },
+      { "text": "Thailand", "correct": false },
+      { "text": "South Korea", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the square root of 144?",
+    "answers": [
       { "text": "12", "correct": true },
-      { "text": "9", "correct": false },
-      { "text": "7", "correct": false }
+      { "text": "14", "correct": false },
+      { "text": "16", "correct": false },
+      { "text": "10", "correct": false }
     ]
   },
   {
-    "question": "Which HTML tag is used to include JavaScript?",
+    "question": "Who discovered penicillin?",
     "answers": [
-      { "text": "<javascript>", "correct": false },
+      { "text": "Alexander Fleming", "correct": true },
+      { "text": "Marie Curie", "correct": false },
+      { "text": "Louis Pasteur", "correct": false },
+      { "text": "Albert Einstein", "correct": false }
+    ]
+  },
+  {
+    "question": "Which planet is closest to the sun?",
+    "answers": [
+      { "text": "Mercury", "correct": true },
+      { "text": "Venus", "correct": false },
+      { "text": "Earth", "correct": false },
+      { "text": "Mars", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the hardest natural substance on Earth?",
+    "answers": [
+      { "text": "Diamond", "correct": true },
+      { "text": "Gold", "correct": false },
+      { "text": "Iron", "correct": false },
+      { "text": "Platinum", "correct": false }
+    ]
+  },
+  {
+    "question": "Which country gifted the Statue of Liberty to the USA?",
+    "answers": [
+      { "text": "France", "correct": true },
+      { "text": "England", "correct": false },
+      { "text": "Germany", "correct": false },
+      { "text": "Italy", "correct": false }
+    ]
+  },
+  {
+    "question": "Who is known as the Father of Computers?",
+    "answers": [
+      { "text": "Charles Babbage", "correct": true },
+      { "text": "Alan Turing", "correct": false },
+      { "text": "Steve Jobs", "correct": false },
+      { "text": "Bill Gates", "correct": false }
+    ]
+  },
+  {
+    "question": "What is H2O commonly known as?",
+    "answers": [
+      { "text": "Water", "correct": true },
+      { "text": "Hydrogen Peroxide", "correct": false },
+      { "text": "Salt", "correct": false },
+      { "text": "Oxygen", "correct": false }
+    ]
+  },
+  {
+    "question": "Which animal is known as the King of the Jungle?",
+    "answers": [
+      { "text": "Lion", "correct": true },
+      { "text": "Tiger", "correct": false },
+      { "text": "Elephant", "correct": false },
+      { "text": "Leopard", "correct": false }
+    ]
+  },
+  {
+    "question": "Which is the smallest prime number?",
+    "answers": [
+      { "text": "2", "correct": true },
+      { "text": "1", "correct": false },
+      { "text": "3", "correct": false },
+      { "text": "0", "correct": false }
+    ]
+  },
+  {
+    "question": "Who invented the telephone?",
+    "answers": [
+      { "text": "Alexander Graham Bell", "correct": true },
+      { "text": "Thomas Edison", "correct": false },
+      { "text": "Nikola Tesla", "correct": false },
+      { "text": "Guglielmo Marconi", "correct": false }
+    ]
+  },
+  {
+    "question": "Which gas is most abundant in the Earth's atmosphere?",
+    "answers": [
+      { "text": "Nitrogen", "correct": true },
+      { "text": "Oxygen", "correct": false },
+      { "text": "Carbon Dioxide", "correct": false },
+      { "text": "Hydrogen", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the currency of Japan?",
+    "answers": [
+      { "text": "Yen", "correct": true },
+      { "text": "Dollar", "correct": false },
+      { "text": "Euro", "correct": false },
+      { "text": "Won", "correct": false }
+    ]
+  },
+  {
+    "question": "What is 15 x 12?",
+    "answers": [
+      { "text": "180", "correct": true },
+      { "text": "150", "correct": false },
+      { "text": "200", "correct": false },
+      { "text": "175", "correct": false }
+    ]
+  },
+  {
+    "question": "Which language is primarily used for web development?",
+    "answers": [
+      { "text": "JavaScript", "correct": true },
+      { "text": "Python", "correct": false },
+      { "text": "C++", "correct": false },
+      { "text": "Java", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the chemical symbol for gold?",
+    "answers": [
+      { "text": "Au", "correct": true },
+      { "text": "Ag", "correct": false },
+      { "text": "Gd", "correct": false },
+      { "text": "Go", "correct": false }
+    ]
+  },
+  {
+    "question": "Which continent is the Sahara Desert located in?",
+    "answers": [
+      { "text": "Africa", "correct": true },
+      { "text": "Asia", "correct": false },
+      { "text": "Australia", "correct": false },
+      { "text": "South America", "correct": false }
+    ]
+  },
+  {
+    "question": "Who wrote '1984'?",
+    "answers": [
+      { "text": "George Orwell", "correct": true },
+      { "text": "Aldous Huxley", "correct": false },
+      { "text": "F. Scott Fitzgerald", "correct": false },
+      { "text": "J.K. Rowling", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the largest organ in the human body?",
+    "answers": [
+      { "text": "Skin", "correct": true },
+      { "text": "Heart", "correct": false },
+      { "text": "Liver", "correct": false },
+      { "text": "Lungs", "correct": false }
+    ]
+  },
+  {
+    "question": "Which country hosted the 2016 Summer Olympics?",
+    "answers": [
+      { "text": "Brazil", "correct": true },
+      { "text": "China", "correct": false },
+      { "text": "UK", "correct": false },
+      { "text": "Russia", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the chemical formula for table salt?",
+    "answers": [
+      { "text": "NaCl", "correct": true },
+      { "text": "KCl", "correct": false },
+      { "text": "Na2CO3", "correct": false },
+      { "text": "CaCl2", "correct": false }
+    ]
+  },
+  {
+    "question": "What does CPU stand for in computer terminology?",
+    "answers": [
+      { "text": "Central Processing Unit", "correct": true },
+      { "text": "Computer Primary Unit", "correct": false },
+      { "text": "Central Program Unit", "correct": false },
+      { "text": "Control Processing Unit", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following is a volatile memory?",
+    "answers": [
+      { "text": "RAM", "correct": true },
+      { "text": "ROM", "correct": false },
+      { "text": "Hard Disk", "correct": false },
+      { "text": "Flash Memory", "correct": false }
+    ]
+  },
+  {
+    "question": "Which sorting algorithm is fastest on average?",
+    "answers": [
+      { "text": "Quick Sort", "correct": true },
+      { "text": "Bubble Sort", "correct": false },
+      { "text": "Selection Sort", "correct": false },
+      { "text": "Insertion Sort", "correct": false }
+    ]
+  },
+  {
+    "question": "What does HTTP stand for?",
+    "answers": [
+      { "text": "HyperText Transfer Protocol", "correct": true },
+      { "text": "HyperText Transmission Program", "correct": false },
+      { "text": "HyperText Transfer Procedure", "correct": false },
+      { "text": "High Transfer Text Protocol", "correct": false }
+    ]
+  },
+  {
+    "question": "Which is a NoSQL database?",
+    "answers": [
+      { "text": "MongoDB", "correct": true },
+      { "text": "MySQL", "correct": false },
+      { "text": "Oracle", "correct": false },
+      { "text": "PostgreSQL", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following is a low-level programming language?",
+    "answers": [
+      { "text": "Assembly Language", "correct": true },
+      { "text": "Python", "correct": false },
+      { "text": "Java", "correct": false },
+      { "text": "C#", "correct": false }
+    ]
+  },
+  {
+    "question": "In networking, what does IP stand for?",
+    "answers": [
+      { "text": "Internet Protocol", "correct": true },
+      { "text": "Internet Program", "correct": false },
+      { "text": "Internal Protocol", "correct": false },
+      { "text": "Information Packet", "correct": false }
+    ]
+  },
+  {
+    "question": "Which logic gate gives output 1 only when both inputs are 1?",
+    "answers": [
+      { "text": "AND gate", "correct": true },
+      { "text": "OR gate", "correct": false },
+      { "text": "XOR gate", "correct": false },
+      { "text": "NOT gate", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following is an example of a primary storage device?",
+    "answers": [
+      { "text": "RAM", "correct": true },
+      { "text": "Hard Disk", "correct": false },
+      { "text": "USB Drive", "correct": false },
+      { "text": "CD-ROM", "correct": false }
+    ]
+  },
+  {
+    "question": "Which data structure uses FIFO (First In, First Out)?",
+    "answers": [
+      { "text": "Queue", "correct": true },
+      { "text": "Stack", "correct": false },
+      { "text": "Tree", "correct": false },
+      { "text": "Graph", "correct": false }
+    ]
+  },
+  {
+    "question": "Which HTML tag is used to insert an image?",
+    "answers": [
+      { "text": "<img>", "correct": true },
+      { "text": "<image>", "correct": false },
+      { "text": "<picture>", "correct": false },
+      { "text": "<src>", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the full form of BIOS?",
+    "answers": [
+      { "text": "Basic Input Output System", "correct": true },
+      { "text": "Binary Input Output System", "correct": false },
+      { "text": "Basic Internal Output System", "correct": false },
+      { "text": "Binary Integrated Operating System", "correct": false }
+    ]
+  },
+  {
+    "question": "Which is the main memory of a computer?",
+    "answers": [
+      { "text": "RAM", "correct": true },
+      { "text": "Hard Disk", "correct": false },
+      { "text": "Cache", "correct": false },
+      { "text": "ROM", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following is an object-oriented programming language?",
+    "answers": [
+      { "text": "Java", "correct": true },
+      { "text": "C", "correct": false },
+      { "text": "BASIC", "correct": false },
+      { "text": "Pascal", "correct": false }
+    ]
+  },
+  {
+    "question": "Which device is used to connect a network to the Internet?",
+    "answers": [
+      { "text": "Router", "correct": true },
+      { "text": "Switch", "correct": false },
+      { "text": "Hub", "correct": false },
+      { "text": "Bridge", "correct": false }
+    ]
+  },
+  {
+    "question": "Which operating system is open source?",
+    "answers": [
+      { "text": "Linux", "correct": true },
+      { "text": "Windows", "correct": false },
+      { "text": "macOS", "correct": false },
+      { "text": "iOS", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following is a markup language?",
+    "answers": [
+      { "text": "HTML", "correct": true },
+      { "text": "Python", "correct": false },
+      { "text": "C++", "correct": false },
+      { "text": "JavaScript", "correct": false }
+    ]
+  },
+  {
+    "question": "Which is used to style web pages?",
+    "answers": [
+      { "text": "CSS", "correct": true },
+      { "text": "HTML", "correct": false },
+      { "text": "JavaScript", "correct": false },
+      { "text": "SQL", "correct": false }
+    ]
+  },
+  {
+    "question": "Which protocol is used to send emails?",
+    "answers": [
+      { "text": "SMTP", "correct": true },
+      { "text": "FTP", "correct": false },
+      { "text": "HTTP", "correct": false },
+      { "text": "IMAP", "correct": false }
+    ]
+  },
+  {
+    "question": "Which is the permanent storage of a computer?",
+    "answers": [
+      { "text": "Hard Disk", "correct": true },
+      { "text": "RAM", "correct": false },
+      { "text": "Cache", "correct": false },
+      { "text": "Registers", "correct": false }
+    ]
+  },
+  {
+    "question": "Which component is considered the brain of the computer?",
+    "answers": [
+      { "text": "CPU", "correct": true },
+      { "text": "RAM", "correct": false },
+      { "text": "Hard Disk", "correct": false },
+      { "text": "GPU", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the main function of the ALU in a CPU?",
+    "answers": [
+      { "text": "Perform arithmetic and logic operations", "correct": true },
+      { "text": "Store data", "correct": false },
+      { "text": "Manage input/output devices", "correct": false },
+      { "text": "Control the clock speed", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following is an example of secondary storage?",
+    "answers": [
+      { "text": "Hard Disk", "correct": true },
+      { "text": "Cache Memory", "correct": false },
+      { "text": "Registers", "correct": false },
+      { "text": "RAM", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following is used for version control?",
+    "answers": [
+      { "text": "Git", "correct": true },
+      { "text": "Linux", "correct": false },
+      { "text": "Python", "correct": false },
+      { "text": "MySQL", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the primary function of DNS in networking?",
+    "answers": [
+      { "text": "Translate domain names to IP addresses", "correct": true },
+      { "text": "Send emails", "correct": false },
+      { "text": "Route packets inside LAN", "correct": false },
+      { "text": "Provide VPN services", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following is a high-level programming language?",
+    "answers": [
+      { "text": "Python", "correct": true },
+      { "text": "Assembly", "correct": false },
+      { "text": "Machine code", "correct": false },
+      { "text": "Binary code", "correct": false }
+    ]
+  },
+  {
+    "question": "Which memory is used to speed up CPU operations by storing frequently used data?",
+    "answers": [
+      { "text": "Cache Memory", "correct": true },
+      { "text": "RAM", "correct": false },
+      { "text": "ROM", "correct": false },
+      { "text": "Hard Disk", "correct": false }
+    ]
+  },
+  {
+    "question": "Which command-line tool is used to test network connectivity?",
+    "answers": [
+      { "text": "Ping", "correct": true },
+      { "text": "Tracert", "correct": false },
+      { "text": "Ipconfig", "correct": false },
+      { "text": "Netstat", "correct": false }
+    ]
+  },
+
+  {
+    "question": "What does HTML stand for?",
+    "answers": [
+      { "text": "HyperText Markup Language", "correct": true },
+      { "text": "Hyperlink Markup Language", "correct": false },
+      { "text": "HyperText Markdown Language", "correct": false },
+      { "text": "Hyperlink Text Markup", "correct": false }
+    ]
+  },
+  {
+    "question": "Which HTML element is used for the largest heading?",
+    "answers": [
+      { "text": "<h1>", "correct": true },
+      { "text": "<h6>", "correct": false },
+      { "text": "<head>", "correct": false },
+      { "text": "<heading>", "correct": false }
+    ]
+  },
+  {
+    "question": "Which attribute is used to define an image source in HTML?",
+    "answers": [
+      { "text": "src", "correct": true },
+      { "text": "href", "correct": false },
+      { "text": "alt", "correct": false },
+      { "text": "link", "correct": false }
+    ]
+  },
+  {
+    "question": "Which HTML element is used for creating a hyperlink?",
+    "answers": [
+      { "text": "<a>", "correct": true },
+      { "text": "<link>", "correct": false },
+      { "text": "<href>", "correct": false },
+      { "text": "<url>", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the purpose of the <alt> attribute in <img>?",
+    "answers": [
+      { "text": "Provides alternative text for the image", "correct": true },
+      { "text": "Specifies the alignment of image", "correct": false },
+      { "text": "Adds a tooltip to the image", "correct": false },
+      { "text": "Links the image to a URL", "correct": false }
+    ]
+  },
+  {
+    "question": "Which element is used to create an unordered list in HTML?",
+    "answers": [
+      { "text": "<ul>", "correct": true },
+      { "text": "<ol>", "correct": false },
+      { "text": "<li>", "correct": false },
+      { "text": "<list>", "correct": false }
+    ]
+  },
+  {
+    "question": "Which element is used to create a table row?",
+    "answers": [
+      { "text": "<tr>", "correct": true },
+      { "text": "<td>", "correct": false },
+      { "text": "<th>", "correct": false },
+      { "text": "<table>", "correct": false }
+    ]
+  },
+  {
+    "question": "Which tag is used to define a table header cell?",
+    "answers": [
+      { "text": "<th>", "correct": true },
+      { "text": "<tr>", "correct": false },
+      { "text": "<td>", "correct": false },
+      { "text": "<thead>", "correct": false }
+    ]
+  },
+  {
+    "question": "Which HTML element is used to embed JavaScript code?",
+    "answers": [
       { "text": "<script>", "correct": true },
       { "text": "<js>", "correct": false },
-      { "text": "<link>", "correct": false }
+      { "text": "<javascript>", "correct": false },
+      { "text": "<code>", "correct": false }
     ]
   },
   {
-    "question": "Which company developed the React framework?",
+    "question": "Which attribute specifies the URL of a link?",
     "answers": [
-      { "text": "Google", "correct": false },
-      { "text": "Facebook", "correct": true },
-      { "text": "Microsoft", "correct": false },
-      { "text": "Amazon", "correct": false }
+      { "text": "href", "correct": true },
+      { "text": "src", "correct": false },
+      { "text": "link", "correct": false },
+      { "text": "url", "correct": false }
+    ]
+  },
+  {
+    "question": "What does the <br> tag do in HTML?",
+    "answers": [
+      { "text": "Inserts a line break", "correct": true },
+      { "text": "Bold text", "correct": false },
+      { "text": "Creates a paragraph", "correct": false },
+      { "text": "Breaks a table row", "correct": false }
+    ]
+  },
+  {
+    "question": "Which tag is used to create a drop-down list?",
+    "answers": [
+      { "text": "<select>", "correct": true },
+      { "text": "<input>", "correct": false },
+      { "text": "<option>", "correct": false },
+      { "text": "<dropdown>", "correct": false }
+    ]
+  },
+  {
+    "question": "Which tag is used for creating an ordered list?",
+    "answers": [
+      { "text": "<ol>", "correct": true },
+      { "text": "<ul>", "correct": false },
+      { "text": "<li>", "correct": false },
+      { "text": "<list>", "correct": false }
+    ]
+  },
+  {
+    "question": "Which HTML element defines the title of the document?",
+    "answers": [
+      { "text": "<title>", "correct": true },
+      { "text": "<head>", "correct": false },
+      { "text": "<meta>", "correct": false },
+      { "text": "<header>", "correct": false }
+    ]
+  },
+  {
+    "question": "Which attribute is used to define inline CSS styles?",
+    "answers": [
+      { "text": "style", "correct": true },
+      { "text": "class", "correct": false },
+      { "text": "id", "correct": false },
+      { "text": "css", "correct": false }
+    ]
+  },
+  {
+    "question": "Which element is used to create a paragraph?",
+    "answers": [
+      { "text": "<p>", "correct": true },
+      { "text": "<para>", "correct": false },
+      { "text": "<text>", "correct": false },
+      { "text": "<paragraph>", "correct": false }
+    ]
+  },
+  {
+    "question": "Which HTML element is used for defining a division or a section?",
+    "answers": [
+      { "text": "<div>", "correct": true },
+      { "text": "<section>", "correct": false },
+      { "text": "<span>", "correct": false },
+      { "text": "<container>", "correct": false }
+    ]
+  },
+  {
+    "question": "Which attribute is used to add a tooltip in HTML?",
+    "answers": [
+      { "text": "title", "correct": true },
+      { "text": "alt", "correct": false },
+      { "text": "tooltip", "correct": false },
+      { "text": "data-tooltip", "correct": false }
+    ]
+  },
+  {
+    "question": "Which tag is used for a numbered heading section in HTML5?",
+    "answers": [
+      { "text": "<h1> to <h6>", "correct": true },
+      { "text": "<header>", "correct": false },
+      { "text": "<head>", "correct": false },
+      { "text": "<heading>", "correct": false }
+    ]
+  },
+  {
+    "question": "Which element is used to create a horizontal line?",
+    "answers": [
+      { "text": "<hr>", "correct": true },
+      { "text": "<line>", "correct": false },
+      { "text": "<break>", "correct": false },
+      { "text": "<divider>", "correct": false }
+    ]
+  },
+  {
+    "question": "Which attribute specifies an input field as required?",
+    "answers": [
+      { "text": "required", "correct": true },
+      { "text": "mandatory", "correct": false },
+      { "text": "validate", "correct": false },
+      { "text": "check", "correct": false }
+    ]
+  },
+  {
+    "question": "Which HTML tag is used to display a video?",
+    "answers": [
+      { "text": "<video>", "correct": true },
+      { "text": "<media>", "correct": false },
+      { "text": "<movie>", "correct": false },
+      { "text": "<source>", "correct": false }
+    ]
+  },
+  {
+    "question": "Which element is used for emphasized text?",
+    "answers": [
+      { "text": "<em>", "correct": true },
+      { "text": "<i>", "correct": false },
+      { "text": "<strong>", "correct": false },
+      { "text": "<italic>", "correct": false }
+    ]
+  },
+  {
+    "question": "Which tag is used to create a checkbox?",
+    "answers": [
+      { "text": "<input type='checkbox'>", "correct": true },
+      { "text": "<checkbox>", "correct": false },
+      { "text": "<check>", "correct": false },
+      { "text": "<input type='check'>", "correct": false }
+    ]
+  },
+  {
+    "question": "Which attribute is used to open a link in a new tab?",
+    "answers": [
+      { "text": "target='_blank'", "correct": true },
+      { "text": "newtab='yes'", "correct": false },
+      { "text": "window='_new'", "correct": false },
+      { "text": "link='_tab'", "correct": false }
+    ]
+  },
+  {
+    "question": "Which element is used to define a list item?",
+    "answers": [
+      { "text": "<li>", "correct": true },
+      { "text": "<ul>", "correct": false },
+      { "text": "<ol>", "correct": false },
+      { "text": "<list>", "correct": false }
+    ]
+  },
+  {
+    "question": "Which HTML tag is used to define the main content of a document?",
+    "answers": [
+      { "text": "<main>", "correct": true },
+      { "text": "<body>", "correct": false },
+      { "text": "<section>", "correct": false },
+      { "text": "<content>", "correct": false }
+    ]
+  },
+  {
+    "question": "Which HTML element represents a block of navigational links?",
+    "answers": [
+      { "text": "<nav>", "correct": true },
+      { "text": "<menu>", "correct": false },
+      { "text": "<ul>", "correct": false },
+      { "text": "<header>", "correct": false }
+    ]
+  },
+  {
+    "question": "Which element is used for bold text?",
+    "answers": [
+      { "text": "<strong>", "correct": true },
+      { "text": "<b>", "correct": false },
+      { "text": "<bold>", "correct": false },
+      { "text": "<em>", "correct": false }
+    ]
+  },
+  {
+    "question": "What does CSS stand for?",
+    "answers": [
+      { "text": "Cascading Style Sheets", "correct": true },
+      { "text": "Computer Style Sheets", "correct": false },
+      { "text": "Creative Style Syntax", "correct": false },
+      { "text": "Colorful Style Sheets", "correct": false }
+    ]
+  },
+  {
+    "question": "Which property is used to change the text color in CSS?",
+    "answers": [
+      { "text": "color", "correct": true },
+      { "text": "text-color", "correct": false },
+      { "text": "font-color", "correct": false },
+      { "text": "foreground", "correct": false }
+    ]
+  },
+  {
+    "question": "Which property is used to change the background color?",
+    "answers": [
+      { "text": "background-color", "correct": true },
+      { "text": "bgcolor", "correct": false },
+      { "text": "color", "correct": false },
+      { "text": "background", "correct": false }
+    ]
+  },
+  {
+    "question": "How do you make text bold in CSS?",
+    "answers": [
+      { "text": "font-weight: bold;", "correct": true },
+      { "text": "text-style: bold;", "correct": false },
+      { "text": "font-style: bold;", "correct": false },
+      { "text": "text-weight: bold;", "correct": false }
+    ]
+  },
+  {
+    "question": "Which property is used to change the font of text?",
+    "answers": [
+      { "text": "font-family", "correct": true },
+      { "text": "font-style", "correct": false },
+      { "text": "text-font", "correct": false },
+      { "text": "text-family", "correct": false }
+    ]
+  },
+  {
+    "question": "Which property controls the element's width?",
+    "answers": [
+      { "text": "width", "correct": true },
+      { "text": "size", "correct": false },
+      { "text": "length", "correct": false },
+      { "text": "element-width", "correct": false }
+    ]
+  },
+  {
+    "question": "How do you select an element with id 'header'?",
+    "answers": [
+      { "text": "#header", "correct": true },
+      { "text": ".header", "correct": false },
+      { "text": "*header", "correct": false },
+      { "text": "header", "correct": false }
+    ]
+  },
+  {
+    "question": "How do you select elements with class 'container'?",
+    "answers": [
+      { "text": ".container", "correct": true },
+      { "text": "#container", "correct": false },
+      { "text": "*container", "correct": false },
+      { "text": "container", "correct": false }
+    ]
+  },
+  {
+    "question": "Which property adds space inside an element’s border?",
+    "answers": [
+      { "text": "padding", "correct": true },
+      { "text": "margin", "correct": false },
+      { "text": "spacing", "correct": false },
+      { "text": "border-spacing", "correct": false }
+    ]
+  },
+  {
+    "question": "Which property adds space outside an element’s border?",
+    "answers": [
+      { "text": "margin", "correct": true },
+      { "text": "padding", "correct": false },
+      { "text": "spacing", "correct": false },
+      { "text": "border", "correct": false }
+    ]
+  },
+  {
+    "question": "How do you make text italic in CSS?",
+    "answers": [
+      { "text": "font-style: italic;", "correct": true },
+      { "text": "text-style: italic;", "correct": false },
+      { "text": "font-weight: italic;", "correct": false },
+      { "text": "text-decoration: italic;", "correct": false }
+    ]
+  },
+  {
+    "question": "Which property is used to add a shadow to text?",
+    "answers": [
+      { "text": "text-shadow", "correct": true },
+      { "text": "shadow-text", "correct": false },
+      { "text": "box-shadow", "correct": false },
+      { "text": "text-glow", "correct": false }
+    ]
+  },
+  {
+    "question": "How do you apply a background image in CSS?",
+    "answers": [
+      { "text": "background-image: url('image.jpg');", "correct": true },
+      { "text": "bg-image: 'image.jpg';", "correct": false },
+      { "text": "background: image('image.jpg');", "correct": false },
+      { "text": "image-url: 'image.jpg';", "correct": false }
+    ]
+  },
+  {
+    "question": "Which property is used to control the transparency of an element?",
+    "answers": [
+      { "text": "opacity", "correct": true },
+      { "text": "visibility", "correct": false },
+      { "text": "transparent", "correct": false },
+      { "text": "alpha", "correct": false }
+    ]
+  },
+  {
+    "question": "Which property sets the horizontal alignment of text?",
+    "answers": [
+      { "text": "text-align", "correct": true },
+      { "text": "align", "correct": false },
+      { "text": "justify", "correct": false },
+      { "text": "vertical-align", "correct": false }
+    ]
+  },
+  {
+    "question": "How do you make a list without bullets?",
+    "answers": [
+      { "text": "list-style-type: none;", "correct": true },
+      { "text": "list: none;", "correct": false },
+      { "text": "list-style: no-bullet;", "correct": false },
+      { "text": "list-type: none;", "correct": false }
+    ]
+  },
+  {
+    "question": "Which property is used to control the spacing between letters?",
+    "answers": [
+      { "text": "letter-spacing", "correct": true },
+      { "text": "text-spacing", "correct": false },
+      { "text": "word-spacing", "correct": false },
+      { "text": "spacing", "correct": false }
+    ]
+  },
+  {
+    "question": "Which property sets the height of an element?",
+    "answers": [
+      { "text": "height", "correct": true },
+      { "text": "size", "correct": false },
+      { "text": "length", "correct": false },
+      { "text": "element-height", "correct": false }
+    ]
+  },
+  {
+    "question": "Which property controls the order of overlapping elements?",
+    "answers": [
+      { "text": "z-index", "correct": true },
+      { "text": "order", "correct": false },
+      { "text": "stack", "correct": false },
+      { "text": "layer", "correct": false }
+    ]
+  },
+  {
+    "question": "Which property changes the cursor when hovering over an element?",
+    "answers": [
+      { "text": "cursor", "correct": true },
+      { "text": "pointer", "correct": false },
+      { "text": "hover", "correct": false },
+      { "text": "mouse", "correct": false }
+    ]
+  },
+  {
+    "question": "How do you create rounded corners for an element?",
+    "answers": [
+      { "text": "border-radius", "correct": true },
+      { "text": "corner-radius", "correct": false },
+      { "text": "radius", "correct": false },
+      { "text": "round-corners", "correct": false }
+    ]
+  },
+  {
+    "question": "Which property is used to create a flexible layout?",
+    "answers": [
+      { "text": "display: flex;", "correct": true },
+      { "text": "flex-layout: true;", "correct": false },
+      { "text": "layout: flex;", "correct": false },
+      { "text": "flex-display: yes;", "correct": false }
+    ]
+  },
+  {
+    "question": "Which CSS property sets the background color of a table header?",
+    "answers": [
+      { "text": "background-color", "correct": true },
+      { "text": "header-color", "correct": false },
+      { "text": "bg-color", "correct": false },
+      { "text": "color", "correct": false }
+    ]
+  },
+  {
+    "question": "Which property is used to make text uppercase?",
+    "answers": [
+      { "text": "text-transform: uppercase;", "correct": true },
+      { "text": "text-style: uppercase;", "correct": false },
+      { "text": "font-variant: uppercase;", "correct": false },
+      { "text": "text-case: uppercase;", "correct": false }
+    ]
+  },
+  {
+    "question": "Which property adds spacing between words?",
+    "answers": [
+      { "text": "word-spacing", "correct": true },
+      { "text": "letter-spacing", "correct": false },
+      { "text": "text-spacing", "correct": false },
+      { "text": "spacing", "correct": false }
+    ]
+  },
+  {
+    "question": "Which property specifies whether an element floats to the left or right?",
+    "answers": [
+      { "text": "float", "correct": true },
+      { "text": "position", "correct": false },
+      { "text": "align", "correct": false },
+      { "text": "clear", "correct": false }
+    ]
+  },
+  {
+    "question": "Which property controls the element’s visibility?",
+    "answers": [
+      { "text": "visibility", "correct": true },
+      { "text": "display", "correct": false },
+      { "text": "opacity", "correct": false },
+      { "text": "hidden", "correct": false }
+    ]
+  },
+  {
+    "question": "Which property is used to set the text indentation?",
+    "answers": [
+      { "text": "text-indent", "correct": true },
+      { "text": "indent", "correct": false },
+      { "text": "margin-left", "correct": false },
+      { "text": "padding-left", "correct": false }
+    ]
+  },
+  {
+    "question": "Which property is used to add a shadow effect to a box?",
+    "answers": [
+      { "text": "box-shadow", "correct": true },
+      { "text": "shadow", "correct": false },
+      { "text": "text-shadow", "correct": false },
+      { "text": "box-glow", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following is a correct way to declare a variable in JavaScript?",
+    "answers": [
+      { "text": "let x = 10;", "correct": true },
+      { "text": "int x = 10;", "correct": false },
+      { "text": "var x := 10;", "correct": false },
+      { "text": "variable x = 10;", "correct": false }
+    ]
+  },
+  {
+    "question": "Which symbol is used for comments in JavaScript?",
+    "answers": [
+      { "text": "// This is a comment", "correct": true },
+      { "text": "<!-- This is a comment -->", "correct": false },
+      { "text": "/* This is a comment */", "correct": true },
+      { "text": "# This is a comment", "correct": false }
+    ]
+  },
+  {
+    "question": "Which function is used to parse a string to an integer?",
+    "answers": [
+      { "text": "parseInt()", "correct": true },
+      { "text": "parseFloat()", "correct": false },
+      { "text": "Number.parse()", "correct": false },
+      { "text": "Integer.parse()", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following is a JavaScript data type?",
+    "answers": [
+      { "text": "Boolean", "correct": true },
+      { "text": "Character", "correct": false },
+      { "text": "Float", "correct": false },
+      { "text": "Real", "correct": false }
+    ]
+  },
+  {
+    "question": "Which method is used to add an element to the end of an array?",
+    "answers": [
+      { "text": "push()", "correct": true },
+      { "text": "pop()", "correct": false },
+      { "text": "shift()", "correct": false },
+      { "text": "unshift()", "correct": false }
+    ]
+  },
+  {
+    "question": "How do you create a function in JavaScript?",
+    "answers": [
+      { "text": "function myFunc() {}", "correct": true },
+      { "text": "func myFunc() {}", "correct": false },
+      { "text": "function:myFunc() {}", "correct": false },
+      { "text": "def myFunc() {}", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the output of `typeof null` in JavaScript?",
+    "answers": [
+      { "text": "object", "correct": true },
+      { "text": "null", "correct": false },
+      { "text": "undefined", "correct": false },
+      { "text": "number", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following is used to create an array?",
+    "answers": [
+      { "text": "let arr = [1,2,3];", "correct": true },
+      { "text": "let arr = {1,2,3};", "correct": false },
+      { "text": "let arr = (1,2,3);", "correct": false },
+      { "text": "let arr = <1,2,3>;", "correct": false }
+    ]
+  },
+  {
+    "question": "Which event occurs when the user clicks on an HTML element?",
+    "answers": [
+      { "text": "onclick", "correct": true },
+      { "text": "onmouseover", "correct": false },
+      { "text": "onchange", "correct": false },
+      { "text": "onmouseclick", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the correct way to write a JavaScript array?",
+    "answers": [
+      { "text": "let colors = ['red','green','blue'];", "correct": true },
+      { "text": "let colors = 'red','green','blue';", "correct": false },
+      { "text": "let colors = (1:'red',2:'green');", "correct": false },
+      { "text": "let colors = {1:'red',2:'green'};", "correct": false }
+    ]
+  },
+  {
+    "question": "Which operator is used for strict equality?",
+    "answers": [
+      { "text": "===", "correct": true },
+      { "text": "==", "correct": false },
+      { "text": "=", "correct": false },
+      { "text": "!=", "correct": false }
+    ]
+  },
+  {
+    "question": "Which keyword is used to define a constant?",
+    "answers": [
+      { "text": "const", "correct": true },
+      { "text": "let", "correct": false },
+      { "text": "var", "correct": false },
+      { "text": "constant", "correct": false }
+    ]
+  },
+  {
+    "question": "Which method removes the last element from an array?",
+    "answers": [
+      { "text": "pop()", "correct": true },
+      { "text": "push()", "correct": false },
+      { "text": "shift()", "correct": false },
+      { "text": "unshift()", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the result of `2 + '2'` in JavaScript?",
+    "answers": [
+      { "text": "'22'", "correct": true },
+      { "text": "4", "correct": false },
+      { "text": "NaN", "correct": false },
+      { "text": "'4'", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following is a JavaScript loop?",
+    "answers": [
+      { "text": "for", "correct": true },
+      { "text": "foreach", "correct": false },
+      { "text": "loop", "correct": false },
+      { "text": "repeat", "correct": false }
     ]
   },
   {
@@ -49,44 +1184,198 @@
     "answers": [
       { "text": "JSON.parse()", "correct": true },
       { "text": "JSON.stringify()", "correct": false },
-      { "text": "JSON.convert()", "correct": false },
-      { "text": "JSON.toObject()", "correct": false }
+      { "text": "JSON.objectify()", "correct": false },
+      { "text": "JSON.convert()", "correct": false }
     ]
   },
   {
-    "question": "Which CSS property changes text color?",
+    "question": "Which method converts a JavaScript object into a JSON string?",
     "answers": [
-      { "text": "font-color", "correct": false },
-      { "text": "text-color", "correct": false },
-      { "text": "color", "correct": true },
-      { "text": "background-color", "correct": false }
+      { "text": "JSON.stringify()", "correct": true },
+      { "text": "JSON.parse()", "correct": false },
+      { "text": "JSON.objectify()", "correct": false },
+      { "text": "JSON.convert()", "correct": false }
     ]
   },
   {
-    "question": "Which operator is used for strict equality in JavaScript?",
+    "question": "What is the output of `console.log(1 == '1')`?",
     "answers": [
-      { "text": "==", "correct": false },
-      { "text": "===", "correct": true },
-      { "text": "!=", "correct": false },
-      { "text": "=", "correct": false }
+      { "text": "true", "correct": true },
+      { "text": "false", "correct": false },
+      { "text": "1", "correct": false },
+      { "text": "NaN", "correct": false }
     ]
   },
   {
-    "question": "Which keyword declares a variable in JavaScript?",
+    "question": "Which keyword is used to define a block-scoped variable?",
     "answers": [
-      { "text": "var", "correct": true },
       { "text": "let", "correct": true },
-      { "text": "const", "correct": true },
-      { "text": "All of the above", "correct": true }
+      { "text": "var", "correct": false },
+      { "text": "const", "correct": false },
+      { "text": "block", "correct": false }
     ]
   },
   {
-    "question": "What does DOM stand for in web development?",
+    "question": "Which method adds one or more elements to the beginning of an array?",
     "answers": [
-      { "text": "Document Object Model", "correct": true },
-      { "text": "Data Object Model", "correct": false },
-      { "text": "Digital Object Management", "correct": false },
-      { "text": "Document Oriented Method", "correct": false }
+      { "text": "unshift()", "correct": true },
+      { "text": "shift()", "correct": false },
+      { "text": "push()", "correct": false },
+      { "text": "pop()", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the result of `typeof NaN`?",
+    "answers": [
+      { "text": "number", "correct": true },
+      { "text": "NaN", "correct": false },
+      { "text": "undefined", "correct": false },
+      { "text": "object", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following is NOT a JavaScript data type?",
+    "answers": [
+      { "text": "Character", "correct": true },
+      { "text": "Number", "correct": false },
+      { "text": "String", "correct": false },
+      { "text": "Boolean", "correct": false }
+    ]
+  },
+  {
+    "question": "Which method returns the length of an array?",
+    "answers": [
+      { "text": "length", "correct": true },
+      { "text": "size", "correct": false },
+      { "text": "count", "correct": false },
+      { "text": "len()", "correct": false }
+    ]
+  },
+  {
+    "question": "How do you write an IF statement in JavaScript?",
+    "answers": [
+      { "text": "if (condition) {}", "correct": true },
+      { "text": "if condition then {}", "correct": false },
+      { "text": "if condition {}", "correct": false },
+      { "text": "if: (condition) {}", "correct": false }
+    ]
+  },
+  {
+    "question": "How do you write a comment spanning multiple lines?",
+    "answers": [
+      { "text": "/* Comment */", "correct": true },
+      { "text": "// Comment", "correct": false },
+      { "text": "<!-- Comment -->", "correct": false },
+      { "text": "# Comment", "correct": false }
+    ]
+  },
+  {
+    "question": "Which method is used to remove the first element from an array?",
+    "answers": [
+      { "text": "shift()", "correct": true },
+      { "text": "unshift()", "correct": false },
+      { "text": "pop()", "correct": false },
+      { "text": "push()", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the output of `Boolean(0)`?",
+    "answers": [
+      { "text": "false", "correct": true },
+      { "text": "true", "correct": false },
+      { "text": "0", "correct": false },
+      { "text": "null", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the time complexity of binary search in a sorted array?",
+    "answers": [
+      { "text": "O(log n)", "correct": true },
+      { "text": "O(n)", "correct": false },
+      { "text": "O(n log n)", "correct": false },
+      { "text": "O(1)", "correct": false }
+    ]
+  },
+  {
+    "question": "Which data structure uses LIFO (Last In First Out) principle?",
+    "answers": [
+      { "text": "Stack", "correct": true },
+      { "text": "Queue", "correct": false },
+      { "text": "Linked List", "correct": false },
+      { "text": "Tree", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of these is not a programming paradigm?",
+    "answers": [
+      { "text": "Functional", "correct": false },
+      { "text": "Procedural", "correct": false },
+      { "text": "Linear", "correct": true },
+      { "text": "Object-Oriented", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the primary function of the CPU?",
+    "answers": [
+      { "text": "Execute instructions", "correct": true },
+      { "text": "Store data permanently", "correct": false },
+      { "text": "Display output on screen", "correct": false },
+      { "text": "Connect network devices", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following is a non-linear data structure?",
+    "answers": [
+      { "text": "Tree", "correct": true },
+      { "text": "Array", "correct": false },
+      { "text": "Stack", "correct": false },
+      { "text": "Queue", "correct": false }
+    ]
+  },
+  {
+    "question": "Which sorting algorithm is considered stable?",
+    "answers": [
+      { "text": "Merge Sort", "correct": true },
+      { "text": "Quick Sort", "correct": false },
+      { "text": "Heap Sort", "correct": false },
+      { "text": "Selection Sort", "correct": false }
+    ]
+  },
+  {
+    "question": "In OOP, what does 'inheritance' allow?",
+    "answers": [
+      { "text": "A class to acquire properties of another class", "correct": true },
+      { "text": "A function to call itself recursively", "correct": false },
+      { "text": "Hiding implementation details", "correct": false },
+      { "text": "Creating multiple instances of an object", "correct": false }
+    ]
+  },
+  {
+    "question": "Which protocol is used to send emails?",
+    "answers": [
+      { "text": "SMTP", "correct": true },
+      { "text": "HTTP", "correct": false },
+      { "text": "FTP", "correct": false },
+      { "text": "TCP", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the purpose of a database index?",
+    "answers": [
+      { "text": "To improve search performance", "correct": true },
+      { "text": "To store backup data", "correct": false },
+      { "text": "To enforce foreign keys", "correct": false },
+      { "text": "To encrypt the database", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following is an example of volatile memory?",
+    "answers": [
+      { "text": "RAM", "correct": true },
+      { "text": "ROM", "correct": false },
+      { "text": "Flash Drive", "correct": false },
+      { "text": "Hard Disk", "correct": false }
     ]
   }
 ]
+

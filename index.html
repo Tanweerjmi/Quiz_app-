@@ -5,14 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz Application</title>
     <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    
 </head>
 <body>
     <div class="container">
+        <div id="start-screen">
+             <div class="quiz-icons">
+    <i class="fa-solid fa-brain"></i>
+    <i class="fa-solid fa-trophy"></i>
+    <i class="fa-solid fa-question-circle"></i>
+  </div>
+
+      <h2>Welcome to the Quiz Challenge!</h2>
+      <p>Test your knowledge and see how many questions you can answer correctly. Test your knowledge with this fun and challenging quiz!
+Each question has one correct answer — choose wisely and see how high you can score.
+Click Start to begin your quiz journey! <b>Start Quiz</b> to begin!</p>
+
+    <div id="total-time-display">
+        <i class="fa-solid fa-clock"></i>
+        <span> Total Time for Challenge: <b id="total-challenge-time">30:00</b> Minutes</span>
+    </div>
+      
+    </div>
+    <!-- End Screen -->
+<div id="end-screen" class="hide">
+  <h2>🕒 Your Quiz Has Ended!</h2>
+  <p>Better luck next time — click below to restart the challenge!</p>
+   <h2>🏁 Quiz Finished!</h2>
+  <p id="final-score-text">You scored 0 out of 0!</p>
+    <h3>🏆 Leaderboard</h3>
+  <ol id="leaderboard"></ol>
+  <button id="restart-btn" class="btn">Restart</button>
+</div>
+
         <div id="question-container" class="hide">
              <div id="scoreboard">
       <span id="question-number">Question: 0 / 0</span> |
       <span>Score: <span id="right-answer">0</span></span>
-    </div>
+      <span id="timer">Time Left: <span id="time">60</span>s</span>
+      <span id="total-time">Total Time: <span id="total-time-value">30:00</span>Minutes</span>
+
+    </div><hr>
             <div id="question">Question</div>
             <div id="answer-buttons" class="btn-grid">
                 <button class="btn">Answer 1</button>
@@ -22,8 +57,9 @@
             </div>
         </div>
         <div class="controls">
-            <button id="start-btn" class="start-btn btn">Start</button>
-            <button id="next-btn" class="next-btn btn hide">Next</button>
+            
+            <button id="start-btn" class="start-btn btn">Start Quiz</button>
+            <button id="next-btn" class="next-btn btn hide">Next Question</button>
         </div>
     </div>
         <div class="score">

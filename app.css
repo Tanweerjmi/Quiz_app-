@@ -22,44 +22,254 @@ body.wrong{
 }
 .container {
     width: 800px;
-    max-width: 80%;
-    background-color: white;
+    max-width: 75%;
+    height: 75%;
+    background-color: rgb(255, 255, 255);
     border-radius: 5px;
     padding: 10px;
     box-shadow: 0 0 10px 2px;
 }
+#start-screen {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+#start-screen h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+#start-screen p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #333;
+  
+}
+
+.hide {
+  display: none;
+}
+#start-screen {
+  opacity: 1;
+  transition: opacity 0.6s ease;
+}
+
+#start-screen.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+.quiz-icons {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 20px;
+}
+
+.quiz-icons i {
+  font-size: 50px;
+  color: #017BFF;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.quiz-icons i:hover {
+  transform: scale(1.2);
+  color: #28a745;
+}
+@keyframes popIn {
+  from { transform: scale(0); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+.quiz-icons i {
+  animation: popIn 0.6s ease forwards;
+}
+
+
+#scoreboard{
+    display: flex;
+    gap: 17px;
+    justify-content: center;
+    font-size: 20px;
+    margin: 15px 0;
+}
+#question{
+   display: flex;
+    font-size: 18px;
+    height: 51px;
+    line-height: 26px;
+    margin: 20px 6px;
+}
+#timer {
+  font-weight: bold;
+  color: #007bff;
+  transition: color 0.3s ease;
+}
+
+#timer.warning {
+  color: orange;
+}
+
+#timer.danger {
+  color: red;
+}
+
+
+#timer {
+  margin: 3px 0;
+    color: #ff0000;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#timer.warning {
+  color: orange;
+}
+
+#timer.danger {
+  color: red;
+}
+#total-time {
+  color: #007bff;
+  font-weight: bold;
+  font-size: 15px;
+  margin: 3px 0px;
+}
+#total-time-display {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #017BFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#total-time-display i {
+  color: #ff9800;
+  font-size: 1.5rem;
+}
+#end-screen {
+  text-align: center;
+    padding: 40px;
+    position: relative;
+    top: 23px;
+}
+
+#end-screen h2 {
+  font-size: 2rem;
+  color: #dc3545;
+  margin-bottom: 10px;
+  margin: 0px;
+}
+
+#end-screen p {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#restart-btn {
+  background-color: #017BFF;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#restart-btn:hover {
+  background-color: #0056b3;
+}
+
 .btn-grid{
-    display: grid;
-    grid-template-columns: repeat(2,auto);
-    gap: 10px;
+    display: flex;
+    flex-direction: column;
+   
+    gap: 12px;
     margin: 20px 0;
 
 }
+.btn-grid .btn{
+    background: #e9f4fc;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: rgb(33, 33, 33);
+  transition: 0.3s;
+    
+ border: 1px solid #B7D9F4;
+}
+
+
 .btn{
     --hue :var(--hue-neutral);
     border: 1px solid hsl(var(--hue), 100% ,30%);
     background-color:  hsl(var(--hue), 100% ,50%);
     border-radius: 5px;
     padding: 5px 10px;
-    color: white;
-    outline: none;
+    color: rgb(255, 255, 255);
+     
+     
     cursor: pointer;
 }
 .btn:hover{
-    border-color: black;
-    background-color: white;
-    color: black;
+   
+    box-shadow: 1.5px 1px 10px 2px rgb(150, 149, 149);
+    
     
 }
-.start-btn,
-.next-btn{
-    font-size: 1.5rem;
+
+.controls .start-btn
+{
+    background-color: #017BFF;
+    position: relative;
+    
+    margin: 0px;
+    padding: 0px;
+     font-size: 1rem;
+    font-weight: bold;
+    
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.controls .start-btn
+{
+    background-color: #017BFF;
+    position: relative;
+    
+    margin: 20px 0px;
+    padding: 0px;
+     font-size: 1rem;
+    font-weight: bold;
+    
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.controls .next-btn
+{
+    background-color: #017BFF;
+    margin: 20px 0;
+    font-size: 1rem;
     font-weight: bold;
     padding: 10px 20px;
     cursor: pointer;
 }
-.controls{
+.start-btn,
+.next-btn{
+    font-size: 1.2rem;
+    font-weight: bold;
+    
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.controls {
     display: flex;
+    
     justify-content: center;
     align-items: center;
 }
@@ -67,13 +277,21 @@ body.wrong{
     display: none;
 }
 .btn.correct {
-  background-color: #4CAF50; /* green */
-  color: white;
+ background: #d4edda;
+  border-left: 5px solid #28a745;
+  content: "✔️";
+  right: 10px;
+  color: green;
 }
 
 .btn.wrong {
-  background-color: #f44336; /* red */
-  color: white;
+  background: #f8d7da;
+  border-left: 5px solid #dc3545;
+  content: "❌";
+  
+
+  right: 10px;
+  color: red;
 }
 
 .btn {
